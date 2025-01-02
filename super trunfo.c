@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Este script tem a função de cadastrar as cartas de super trunfo
+
 int main(){
     char estado[20];
     char codigo[3];
@@ -10,7 +12,8 @@ int main(){
     int ponto;
     float densidade;
     float capita;
-
+    
+//Aqui o player irá insirir as informações das cartas
     printf("Insira as informações da sua carta\n");
     printf("Estado:\n");
     scanf("%s", &estado);
@@ -27,9 +30,11 @@ int main(){
     printf("Número total de pontos túristicos:\n");
     scanf("%d", &ponto);
     
+//Abaixo será calculado a densidade populacional e o pib per capita
     densidade = populacao / area;
     capita = pib / populacao;
 
+//As informações serão exibidas ao player    
     printf("informações de sua carta:\n");
     printf("Estado: %s\n", estado);
     printf("Código: %s\n", codigo);
