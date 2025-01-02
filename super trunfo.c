@@ -8,6 +8,8 @@ int main(){
     float area;
     float pib;
     int ponto;
+    float densidade;
+    float capita;
 
     printf("Insira as informações da sua carta\n");
     printf("Estado:\n");
@@ -24,6 +26,9 @@ int main(){
     scanf("%f", &pib);
     printf("Número total de pontos túristicos:\n");
     scanf("%d", &ponto);
+    
+    densidade = populacao / area;
+    capita = pib / populacao;
 
     printf("informações de sua carta:\n");
     printf("Estado: %s\n", estado);
@@ -33,4 +38,6 @@ int main(){
     printf("Área total: %2f km²\n", area);
     printf("PIB %2f bilhões de reais\n", pib);
     printf("Número total de pontos túristicos: %d\n", ponto);
+    printf("Densidade populacional: %2f\n", densidade);
+    printf("PIB per capita: %2f\n", capita);
 }
