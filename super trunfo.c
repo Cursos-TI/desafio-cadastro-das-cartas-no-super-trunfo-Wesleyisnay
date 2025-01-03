@@ -43,6 +43,6 @@ int main(){
     printf("Área total: %2f km²\n", area);
     printf("PIB %2f bilhões de reais\n", pib);
     printf("Número total de pontos túristicos: %d\n", ponto);
-    printf("Densidade populacional: %2f\n", densidade);
-    printf("PIB per capita: %2f\n", capita);
+    printf("Densidade populacional: %.1f\n", densidade);
+    printf("PIB per capita: %f\n", capita);
 }
