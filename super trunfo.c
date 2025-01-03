@@ -40,8 +40,8 @@ int main(){
     printf("Código: %s\n", codigo);
     printf("Cidade: %s\n", cidade);
     printf("População total: %ld\n", populacao);
-    printf("Área total: %2f km²\n", area);
-    printf("PIB %2f bilhões de reais\n", pib);
+    printf("Área total: %.2f km²\n", area);
+    printf("PIB %.2f bilhões de reais\n", pib);
     printf("Número total de pontos túristicos: %d\n", ponto);
     printf("Densidade populacional: %.1f\n", densidade);
     printf("PIB per capita: %f\n", capita);
